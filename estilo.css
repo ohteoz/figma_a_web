@@ -104,3 +104,36 @@ body {
 .footer .boton {
     background-color: #d4a017;
 }
+
+/*RESPONSIVE*/
+@media (max-width: 992px) {
+    .header {
+        grid-template-columns: 150px auto;
+        padding: 15px;
+    }
+    .menu {
+        grid-template-columns: repeat(3, auto);
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr; /* imagen y texto uno debajo del otro */
+        padding: 20px;
+    }
+
+    .hero-texto {
+        text-align: center;
+    }
+
+    .noticias {
+        grid-template-columns: 1fr; /* imagen y texto uno debajo del otro */
+        padding: 20px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr; /* todo en columna */
+        text-align: center;
+        gap: 15px;
+    }
+}
