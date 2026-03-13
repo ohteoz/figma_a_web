@@ -108,17 +108,17 @@ body {
 /*RESPONSIVE*/
 @media (max-width: 992px) {
     .header {
-        grid-template-columns: 150px auto;
+        grid-template-columns: 150px 600px;
         padding: 15px;
     }
     .menu {
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: 100px 100px 100px;
         gap: 10px;
         font-size: 14px;
     }
 
     .hero {
-        grid-template-columns: 1fr; /* imagen y texto uno debajo del otro */
+        grid-template-columns: 800px; /* imagen y texto uno debajo del otro */
         padding: 20px;
     }
 
@@ -127,12 +127,12 @@ body {
     }
 
     .noticias {
-        grid-template-columns: 1fr; /* imagen y texto uno debajo del otro */
+        grid-template-columns: 800px; /* imagen y texto uno debajo del otro */
         padding: 20px;
     }
 
     .footer {
-        grid-template-columns: 1fr; /* todo en columna */
+        grid-template-columns: 250px 500px; /* todo en columna */
         text-align: center;
         gap: 15px;
     }
