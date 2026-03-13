@@ -108,7 +108,7 @@ body {
 /*RESPONSIVE*/
 @media (max-width: 992px) {
     .header {
-        grid-template-columns: 150px 600px;
+        grid-template-columns: 150px auto;
         padding: 15px;
     }
     .menu {
@@ -118,7 +118,7 @@ body {
     }
 
     .hero {
-        grid-template-columns: 800px; /* imagen y texto uno debajo del otro */
+        grid-template-columns: auto; /* imagen y texto uno debajo del otro */
         padding: 20px;
     }
 
@@ -127,7 +127,7 @@ body {
     }
 
     .noticias {
-        grid-template-columns: 800px; /* imagen y texto uno debajo del otro */
+        grid-template-columns: auto; /* imagen y texto uno debajo del otro */
         padding: 20px;
     }
 
